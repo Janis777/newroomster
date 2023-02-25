@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add meta tags for SEO -->
+    <meta http-equiv="content-Type" content="text/html; utf-8" />
+    <meta http-equiv="Pragma" content="cache" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta http-equiv="content-Language" content="de" />
+    <meta name="description" content="Die perfekte Webapp für gesellschaftliche Trinkspiele und tiefgründige Fragen!" />
+    <meta name="keywords" content="Trinkspiel, trinkspiel fragen, gute trinkspiele, trinkspiele online, 100 fragen, fragen zum trinken, wahrheit oder pflicht, truth or dare, wahrheit oder pflicht trinkspiel" />
+    <meta name="author" content="Janis Wöhner" />
+    <meta name="publisher" content="Janis Wöhner" />
+    <meta name="copyright" content="" />
+    <meta name="audience" content="Alle" />
+    <meta name="page-type" content="Anleitung" />
+    <meta name="page-topic" content="Bauen Wohnen" />
+    <meta http-equiv="Reply-to" content="ja17bbc17@gmail.com" />
+    <meta name="expires" content="" />
+    <meta name="revisit-after" content="2 days" />
+    <title>Roomster</title>
+
+    <!-- add google adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3256982349823967"
+     crossorigin="anonymous"></script>
+
+    <!-- add google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- add font-awesome icons -->
+    <script src="https://kit.fontawesome.com/009293962b.js" crossorigin="anonymous"></script>
+
+    <!-- add js-scripts -->
+    <script src="functions/index.js"></script>
+    <script src="functions/drink.js"></script>
+
+    <!-- add css-scripts -->
+    <link rel="stylesheet" href="style/drink.css">
+
+</head>
+<body>
+    <div class="head-container">
+        <div class="topnav" id="topnav">
+            <a href="index.html"><i class="fa-solid fa-house"></i><b> roomster</b></a>
+            <a href="about.html"><i class="fa-solid fa-comment"></i> trinkspiel?</a>
+            <a href="about.html"><i class="fa-solid fa-bell"></i> about us</a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=HY2SJHXG8XM2G"><i class="fa-solid fa-mug-hot"></i> support us</a>
+            <!-- Icon when browser is resized -->
+            <a href="javascript:void(0);" class="icon" onclick="show_nav()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </div>
+
+    <div class="body-container">
+        <div class="card">
+            <h1>Roomster</h1>
+            <div class="content" id="content">
+                <!-- Content will display here -->
+            </div>
+            <button type="button" title="Nächste Frage" class="next-btn" onclick="new_content()"><i class="fa-solid fa-wand-magic-sparkles"></i><b> Next</b></button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="#" class="pumpkin">pumpkin</a>.</p>
+    </footer>
+</body>
+</html>
